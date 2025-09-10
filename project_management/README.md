@@ -100,7 +100,7 @@ project_management/
 
 ```bash
 
-git clone [<repository-url>](https://github.com/notSure-ded/project_management-.git)
+git clone https://github.com/notSure-ded/project_management-.git
 cd project_management
 
 python -m venv venv
@@ -169,7 +169,7 @@ Access:
 ## Docker Deployment
 ```bash
 # Clone and run
-git clone <repository-url>
+git clone https://github.com/notSure-ded/project_management-.git
 cd project_management
 docker-compose up --build
 ```
