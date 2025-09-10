@@ -100,7 +100,7 @@ project_management/
 
 ```bash
 
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/notSure-ded/project_management-.git)
 cd project_management
 
 python -m venv venv
