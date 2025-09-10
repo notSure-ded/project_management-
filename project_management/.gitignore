@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+local_settings.py
+
+# Migrations (keep init, ignore compiled stuff)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Celery
+celerybeat-schedule
+celerybeat-schedule.*
+celerybeat.pid
+
+# Environment
+.env
+*.env
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Docker
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+
+# OS Crap
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Virtual envs
+venv/
+env/
+ENV/
+.venv/
